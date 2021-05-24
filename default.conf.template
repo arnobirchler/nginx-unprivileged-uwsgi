@@ -9,4 +9,8 @@ server {
         uwsgi_pass ${APP_HOST}:${APP_PORT};
         include /etc/nginx/uwsgi_params;
     }
+
+    location /nginx_status {
+        stub_status;
+    }
 }
