@@ -10,7 +10,7 @@ server {
         include /etc/nginx/uwsgi_params;
     }
 
-    location /nginx_status {
+    location /server-status {
         stub_status;
     }
 }
