@@ -8,7 +8,7 @@ USER root
 RUN mkdir -p /vol/static
 RUN mkdir -p 755 /vol/static
 
-ENV NGINX_PORT 80
+ENV NGINX_PORT 8080
 ENV APP_PORT 8000
 ENV APP_HOST app
 ENV HEALTH_PATH /
